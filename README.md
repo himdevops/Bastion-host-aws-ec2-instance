@@ -26,6 +26,7 @@ description: Create AWS EC2 Bastion Host used to connect to EKS Node Group EC2 V
 15. Elastic IP - [depends_on Meta Argument](https://www.terraform.io/docs/language/meta-arguments/depends_on.html)
 
 ## Step-01: For VPC switch Availability Zones from Static to Dynamic
+A data source is used to query information from external systems or existing resources and incorporate that information into our Terraform configuration
 - [Datasource: aws_availability_zones](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/availability_zones)
 - **File Name:** `c3-02-vpc-module.tf` for changes 1 and 2
 ```t
